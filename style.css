@@ -1,3 +1,5 @@
+/* CSS in a separate file is called External CSS and can be used by more than one HTML page  */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
 * {
   padding: 0;
@@ -175,6 +177,16 @@ nav .logo-text {
   font-size: 20px;
 }
 
+.addr a {
+  text-decoration: none; 
+  color: rgb(255, 255, 255); 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  transition: 0.4s;
+}
+.addr a:hover {
+  color: #551a8b;
+}
 a[href^="mailto"]::before {
   content: "📧 ";
 }
